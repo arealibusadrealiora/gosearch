@@ -613,7 +613,7 @@ func main() {
 	}
 
 	var username = os.Args[1]
-	deleteOldFile(username)
+	DeleteOldFile(username)
 	var wg sync.WaitGroup
 
 	data, err := UnmarshalJSON()
